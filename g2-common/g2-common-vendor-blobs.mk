@@ -17,28 +17,20 @@
 PRODUCT_COPY_FILES += \
     vendor/lge/g2-common/proprietary/bin/bridgemgrd:system/bin/bridgemgrd \
     vendor/lge/g2-common/proprietary/bin/btnvtool:system/bin/btnvtool \
-    vendor/lge/g2-common/proprietary/bin/gsiff_daemon:system/bin/gsiff_daemon \
     vendor/lge/g2-common/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/lge/g2-common/proprietary/bin/hvdcp:system/bin/hvdcp \
     vendor/lge/g2-common/proprietary/bin/irsc_util:system/bin/irsc_util \
-    vendor/lge/g2-common/proprietary/bin/location-mq:system/bin/location-mq \
-    vendor/lge/g2-common/proprietary/bin/loc_launcher:system/bin/loc_launcher \
-    vendor/lge/g2-common/proprietary/bin/lowi-server:system/bin/lowi-server \
     vendor/lge/g2-common/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/lge/g2-common/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/lge/g2-common/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/lge/g2-common/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/lge/g2-common/proprietary/bin/qmuxd:system/bin/qmuxd \
-    vendor/lge/g2-common/proprietary/bin/quipc_igsn:system/bin/quipc_igsn \
-    vendor/lge/g2-common/proprietary/bin/quipc_main:system/bin/quipc_main \
     vendor/lge/g2-common/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/lge/g2-common/proprietary/bin/radish:system/bin/radish \
     vendor/lge/g2-common/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/lge/g2-common/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/lge/g2-common/proprietary/bin/thermal-engine:system/bin/thermal-engine \
     vendor/lge/g2-common/proprietary/bin/time_daemon:system/bin/time_daemon \
-    vendor/lge/g2-common/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
-    vendor/lge/g2-common/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
     vendor/lge/g2-common/proprietary/etc/acdbdata/Bluetooth_cal.acdb:system/etc/acdbdata/Bluetooth_cal.acdb \
     vendor/lge/g2-common/proprietary/etc/acdbdata/General_cal.acdb:system/etc/acdbdata/General_cal.acdb \
     vendor/lge/g2-common/proprietary/etc/acdbdata/Global_cal.acdb:system/etc/acdbdata/Global_cal.acdb \
@@ -64,7 +56,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2-common/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
     vendor/lge/g2-common/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/lge/g2-common/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
-    vendor/lge/g2-common/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/lge/g2-common/proprietary/lib/drm/libdrmwvmplugin.so:system/lib/drm/libdrmwvmplugin.so \
     vendor/lge/g2-common/proprietary/lib/hw/camera.vendor.msm8974.so:system/lib/hw/camera.vendor.msm8974.so \
     vendor/lge/g2-common/proprietary/lib/hw/consumerir.msm8974.so:system/lib/hw/consumerir.msm8974.so \
@@ -109,7 +100,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2-common/proprietary/lib/libvss_resim_idl.so:system/lib/libvss_resim_idl.so \
     vendor/lge/g2-common/proprietary/lib/libvss_resim_iface.so:system/lib/libvss_resim_iface.so \
     vendor/lge/g2-common/proprietary/lib/libvss_sar_qcci.so:system/lib/libvss_sar_qcci.so \
-    vendor/lge/g2-common/proprietary/vendor/bin/slim_ap_daemon:system/vendor/bin/slim_ap_daemon \
     vendor/lge/g2-common/proprietary/vendor/firmware/BCM4335B0_002.001.006.0191.0201_ORC.hcd:system/vendor/firmware/BCM4335B0_002.001.006.0191.0201_ORC.hcd \
     vendor/lge/g2-common/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/lge/g2-common/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
@@ -148,9 +138,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2-common/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libalarmservice_jni.so:system/vendor/lib/libalarmservice_jni.so \
-    vendor/lge/g2-common/proprietary/vendor/lib/libasn1cper.so:system/vendor/lib/libasn1cper.so \
-    vendor/lge/g2-common/proprietary/vendor/lib/libasn1crt.so:system/vendor/lib/libasn1crt.so \
-    vendor/lge/g2-common/proprietary/vendor/lib/libasn1crtx.so:system/vendor/lib/libasn1crtx.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libaudioalsa.so:system/vendor/lib/libaudioalsa.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
@@ -206,8 +193,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2-common/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
     vendor/lge/g2-common/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
-    vendor/lge/g2-common/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
-    vendor/lge/g2-common/proprietary/vendor/lib/liblowi_client.so:system/vendor/lib/liblowi_client.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libmm-abl.so:system/vendor/lib/libmm-abl.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
@@ -274,8 +259,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2-common/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
-    vendor/lge/g2-common/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
-    vendor/lge/g2-common/proprietary/vendor/lib/libquipc_ulp_adapter.so:system/vendor/lib/libquipc_ulp_adapter.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
     vendor/lge/g2-common/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
@@ -308,7 +291,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2-common/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libubifocus.so:system/vendor/lib/libubifocus.so \
-    vendor/lge/g2-common/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libwifiscanner.so:system/vendor/lib/libwifiscanner.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
@@ -316,9 +298,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2-common/proprietary/vendor/lib/libWVphoneAPI.so:system/vendor/lib/libWVphoneAPI.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
-    vendor/lge/g2-common/proprietary/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
-    vendor/lge/g2-common/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:system/vendor/lib/libxtwifi_ulp_adaptor.so \
-    vendor/lge/g2-common/proprietary/vendor/lib/libxtwifi_zpp_adaptor.so:system/vendor/lib/libxtwifi_zpp_adaptor.so \
     vendor/lge/g2-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/lge/g2-common/proprietary/vendor/lib/rfsa/adsp/libapps_mem_heap.so:system/vendor/lib/rfsa/adsp/libapps_mem_heap.so \
     vendor/lge/g2-common/proprietary/vendor/lib/rfsa/adsp/libdspCV_skel.so:system/vendor/lib/rfsa/adsp/libdspCV_skel.so \
